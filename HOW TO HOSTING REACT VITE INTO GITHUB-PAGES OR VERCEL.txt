@@ -14,3 +14,10 @@ Cara hosting projek React Vite ke Vercel :
 4. Lalu beri nama untuk website nya.
 5. Selanjtunya untuk root direktori pilih yg docs, lalu klik deploy.
 6. Dan website seharusnya sudah terhosting dengan baik, dan gambar pun tampil.
+
+Cara hosting react vite + react router dom ke vercel :
+1. Setup rtd lalu untuk routing berpindah halaman gunakan "Link to" milik rtd.
+2. Selesaikan projek lalu npm run build, lalu ubah folder dist menjadi docs.
+3. Push ke github, tapi cara ini belum bisa untuk di hosting ke github pages.
+4. Bisanya langsung ke vercel, jadi setelah di push ke github langsung hosting ke vercel
+5. Lalu biasalah di vercel hosting dengan cara add new > project > pilih import projek tersebut > root nya docs dan deploy.
