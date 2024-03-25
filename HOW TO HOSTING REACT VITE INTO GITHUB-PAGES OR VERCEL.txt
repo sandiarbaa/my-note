@@ -1,0 +1,16 @@
+Cara hosting projek React Vite ke Github Pages :
+1. Jika projek sudah selesai, jalankan npm run build.
+2. Lalu akan muncul folder dist, rename menjadi docs.
+3. Inisialisasi folder projek tersebut menjadi, repo github, lalu push semua codingannya.
+4. Buka website github, lalu pilih repositori projek yg tadi, dan buka bagian settings > pages.
+5. Lalu pilih branch main, untuk foldernya jangan pilih yang root tapi pilih docs, lalu save.
+6. Project akan terhosting otomatis ke Github Pages (Tunggu beberapa saat).
+7. FYI: kemungkinan image banyak yg tidak tampil, tapi tenang, akan dilanjutkan hosting ke vercel.
+
+Cara hosting projek React Vite ke Vercel :
+1. Pastikan projek sudah ter-upload atau dan ter-hosting di github.
+2. Buka website vercel, lalu masuk ke dashboard.
+3. Jika sudah pilih  add new > project > singkronkan dengan github > import projek yg diinginkan.
+4. Lalu beri nama untuk website nya.
+5. Selanjtunya untuk root direktori pilih yg docs, lalu klik deploy.
+6. Dan website seharusnya sudah terhosting dengan baik, dan gambar pun tampil.
